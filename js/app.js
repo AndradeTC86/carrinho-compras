@@ -1,3 +1,6 @@
+document.getElementById('lista-produtos').innerHTML = ''
+document.getElementById('valor-total').textContent = 'R$ 0'
+
 function adicionar(){
     const produtoSelect = document.getElementById('produto')
     const produtoSelecionado = produtoSelect.value
