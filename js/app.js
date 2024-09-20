@@ -1,5 +1,5 @@
 document.getElementById('lista-produtos').innerHTML = ''
-document.getElementById('valor-total').textContent = 'R$ 0'
+document.getElementById('valor-total').textContent = 'R$ 0.00'
 
 function adicionar(){
     const produtoSelect = document.getElementById('produto')
